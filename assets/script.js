@@ -1,4 +1,5 @@
 var timeDisplay = $('#currentDay');
+const buttonSave = $('.saveBtn')
 const timeblocks = $('.row');
 
 
@@ -32,8 +33,8 @@ timeblocks.each(function() {
 
 
  
-
-  $('.saveBtn').on('click', function(event){
+//save event 
+buttonSave.on('click', function(event){
     event.preventDefault();
    var hoursOfday = {
         nine: $('#9').val(),
@@ -65,7 +66,7 @@ timeblocks.each(function() {
   $('#5').text(eventsSaved.five);
 
   if (eventsSaved === null){
-    
+
 
   }
  
