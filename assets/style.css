@@ -1,10 +1,19 @@
+.custom-input-width {
+  height: 80px;
+}
+.form-control{
+  /* border: none; */
+  height: 96px;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea {
+.textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -58,6 +67,7 @@ textarea {
 }
 
 .saveBtn {
+  text-align: center;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
