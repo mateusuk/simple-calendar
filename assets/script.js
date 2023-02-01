@@ -5,7 +5,7 @@ const timeblocks = $('.row');
 
 // aaa
 
-var currentTime;
+var currentTime = moment().hour();
 //function to display time 
 function getTime() {
     var Now = moment().format('dddd, MMMM Do [at] h:mm A');
@@ -13,9 +13,7 @@ function getTime() {
   }
   setInterval(getTime, 1000);
 
-  if(currentTime){
 
-  }
 
 //loop through time block to give them a style
 timeblocks.each(function() {
