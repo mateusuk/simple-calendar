@@ -1,7 +1,7 @@
 # simple-calendar
 
 ## Description
-##live on https://mateusuk.github.io/simple-calendar/
+## live on https://mateusuk.github.io/simple-calendar/
 
 This Project was created to improve the skills and knowledge obtained through the bootcamp, this simple-calender: 
 
